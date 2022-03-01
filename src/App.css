@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+}
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.image{
+  height: 350px;
+}
+.container{
+  display: grid;
+  grid: 150px/auto auto auto;
+  column-gap: 50px;
+  row-gap: 550px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.sta{
+  color: #e4f30e ;
+}
+.star{
+  color: #282c34;
 }
